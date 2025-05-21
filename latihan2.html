@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabel dalam tabel</title>
+</head>
+<body>
+    <table style="border-color: blueviolet;" border="5" cellspacing="6" width="520px" height="300px" align="center">
+        <tr>
+            <td colspan="3" style="background-color: aqua; color: cornflowerblue; font-size: 16px; font-weight: bold;" valign="bottom" align="center">Tabel dalam tabel</td>
+        </tr>
+        <tr>
+            <td style="background-color: yellow; font-size: 20px; font-style: italic; color: blueviolet;">tengah kiri</td>
+            <td>
+                <table border="5" cellspacing="5" cellpadding="10" width="400px" height="250px" align="center">
+                    <tr>
+                        <td rowspan="2" align="right" valign="top">X</td>
+                        <td colspan="2">Y</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center>
+                                <img src="toran.jpeg" width="50px" height="50px">
+                            </center>
+                        </td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" valign="bottom">text</td>
+                        <td colspan="2">x</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
